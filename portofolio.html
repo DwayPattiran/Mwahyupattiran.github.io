@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>protofolio website</title>
+
+	<link rel="stylesheet" type="text/css" href="./Api/style.css">
+	<link rel="preconnect" type="text/css" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googlepis.com/css?familiy=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,600;1,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1b1840fa5a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<div id="header">
+		<div class="container">
+			
+			<nav>
+				<img src="./Api/images/Portfolio.png" class="logo">
+				<ul id="sidemenu">
+					<li> <a href="#header">Home</a> </li>
+					<li> <a href="#about">About</a> </li>
+					<li> <a href="#services">Service</a> </li>
+					<li> <a href="#portfolio">Portfolio</a> </li>
+					<li> <a href="#contact">Contact</a> </li>
+
+					<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			
+			<div class="header-taxt">
+				<p>Front End Developer</p>
+				<h1>Hi, I'm Muh Wahyu <br>Ananda Pattiran</h1>
+			</div>
+			<div class="center">
+				<div class="garis-bawa">
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--about-->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="./Api/images/profile-transparan.png">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>Lorem ipsum dolor sit amet consectetur 
+						adipisicing elit. Asperiores magni, iusto 
+						eligendi perferendis nisi quaerat repellendus
+						 officia suscipit ea cupiditate, sequi 
+						 deserunt. Quae obcaecati nisi iusto in 
+						 quidem, officia cumque.
+
+					</p>  
+					
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab ('Skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('Education')">Education</p>
+					
+				</div>
+				<!--skill-->
+				<div class="tab-contents active-tab" id="Skills">
+					<ul>
+						<li> <span>CSS</span><br>Web Developer</li>
+						<li> <span>JavaScript</span><br>Web Developer </li>
+						<li> <span>HTML</span><br>Web Developer </li>
+						<li> <span>Adobe After Effect</span><br>Editing</li>
+						<li> <span>Adobe Premiere</span><br>Editing </li>
+						<li> <span>Photoshop</span><br>Editing </li>
+					</ul>
+				</div>
+				<!---education-->
+				<div class="tab-contents" id="Education">
+					<ul>
+						<li> <span>Universitas Gunadarma</span><br>2021</li>
+						<li> <span>Sma Negeri 1 Sorong</span><br>2016</li>
+					</ul>
+				</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---service-->
+
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fa-solid fa-code"></i>
+					<h2>JavaScript</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+						Placeat qui reprehenderit omnis enim perferendis aut 
+						distinctio sunt repellat modi labore tempore architecto, 
+						voluptate fuga odio nesciunt nihil ducimus quis nobis!</p>
+						<a href="#">learn more</a>
+				</div>
+				<div>
+					<i class="fa-solid fa-crop-simple"></i>
+					<h2>CSS</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+						Placeat qui reprehenderit omnis enim perferendis aut 
+						distinctio sunt repellat modi labore tempore architecto, 
+						voluptate fuga odio nesciunt nihil ducimus quis nobis!</p>
+						<a href="#">learn more</a>
+				</div>
+				<div>
+					<i class="fa-brands fa-app-store"></i>
+					<h2>HTML</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+						Placeat qui reprehenderit omnis enim perferendis aut 
+						distinctio sunt repellat modi labore tempore architecto, 
+						voluptate fuga odio nesciunt nihil ducimus quis nobis!</p>
+						<a href="#">learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---portfolio-->
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="./Api/images/javascript.png">
+					<div class="layer">
+						<h3>JavaScript</h3>
+						<p>Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Quis soluta nesciunt quo tem</p>
+
+						<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./Api/images/javascript.png">
+					<div class="layer">
+						<h3>CSS</h3>
+						<p>Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Quis soluta nesciunt quo tem</p>
+
+						<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./Api/images/javascript.png">
+					<div class="layer">
+						<h3>Html</h3>
+						<p>Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Quis soluta nesciunt quo tem</p>
+
+						<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+			</div>
+			
+				<a href="#" class="btn">See more</a>
+		</div>
+
+	</div>
+		<!---contact--->
+
+		<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+					<p><i class="fa-solid fa-phone"></i> 012345678 </p>
+					<div class="social-icons">
+						<a href="https://fa-facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+						<a href=""><i class="fa-brands fa-twitter-square"></i></a>
+						<a href=""><i class="fa-brands fa-instagram"></i></a>
+						<a href=""><i class="fa-brands fa-linkedin"></i></a>
+					</div>
+					<a href="./Api/images/my-cv-original.pdf" download class="btn btn2">Download CV</a>
+				</div>
+					<div class="contact-right">
+						<form>
+							<input type="text" name="Name" placeholder="Your Name" required>
+							<input type="text" name="Email" placeholder="Your Email" required>
+							<textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+							<button type="submit" class="btn btn2">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>copyright @ wahyu.<i class="fa-solid fa-heart"></i> Made with Easy Tutorial</p>
+			</div>
+
+		</div>
+
+	
+
+
+	<script>
+		let tablinks = document.getElementsByClassName("tab-links");
+		let tabcontents = document.getElementsByClassName("tab-contents");
+		
+		function opentab(tabname){
+			for (tablink of tablinks){
+				tablink.classList.remove("active-link");
+			}
+
+			for (tabcontent of tabcontents){
+				tabcontent.classList.remove("active-tab");
+			}
+			
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+
+	</script>
+
+	<script>
+		
+		let sidemeu = document.getElementById("sidemenu")
+
+		function openmenu() {
+			sidemeu.style.right = "0"
+		}
+
+		function closemenu() {
+			sidemeu.style.right = "-200px"
+		}
+	</script>
+
+</body>
+</html>
